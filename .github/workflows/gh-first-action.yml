@@ -10,6 +10,8 @@ jobs:
         ls -las
     - name: Get code
       uses: actions/checkout@v4
+      with:
+        path: main
     - name: Print goodbye
       run: |
         echo "Done - bye!"
