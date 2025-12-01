@@ -9,7 +9,7 @@ jobs:
         echo "Hello World!"
         ls -las
     - name: Get code
-      uses: actions/checkout@v4
+      uses: actions/checkout@v6
       with:
         path: main
     - name: Print goodbye
